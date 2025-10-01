@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+        <link rel="icon" href="media/logo16x16.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .banner{
+    width: 550px;
+
+        }
+        .otraspaginas{
+    display:inline-block;
+    min-width:100px;
+    padding:0.5rem 1rem;
+    border:1px solid;
+    border-radius:10px;
+    border-color: #6a4fe2;
+    background-color:rgb(245, 236, 217);
+    text-decoration:none;
+    text-align:center;
+    color: orange;
+    }
+.otraspaginas:hover{color:#6a4fe2}
+    p, ul{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+        header{
+            text-align: center;
+            margin-top: 5rem;
+            
+            
+        }
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 500rem;
+            color: orange;
+        }
+        h2{
+            color: orange;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .textopresentacion{
+            margin-top: 3rem;
+
+        }
+        .presentacion{
+            margin-top: 5rem;
+            background-color: #6a4fe2;
+            
+        }
+        .presentacion{
+            text-align: center;
+            color: white;
+        }
+        .presentacion1 {
+        display: flex;                /* pone texto y foto en fila */
+        justify-content: space-between;
+        align-items: flex-start;  
+        margin-left: 2rem;
+        }
+
+        .texto {
+            margin-left: 3rem;
+        width: 50%;                   /* ancho del bloque de texto */
+        text-align: start;
+        }
+
+        .texto p {
+        margin-bottom: 15px;          /* espacio entre párrafos */
+        line-height: 1.6;             /* mejora legibilidad */
+        }
+        .fotoperfil {
+            width: 200px;                 /* tamaño fijo */
+            border-radius: 15px;          /* esquinas redondeadas */
+            margin-right: 30rem;
+            margin-bottom: 3rem;
+            border-color: white;
+
+            }
+
+        .sobremi{margin-top: 5rem;
+            margin-left: 5rem;
+            }
+            
+        .servicios{margin-top: 5rem;
+            margin-right: 6rem;
+            }
+            .sobremiyservicios{
+                display: flex;      
+                justify-content: space-between;
+                align-items: flex-start; 
+            }
+
+    .iconos{
+        color: orange;
+    }
+    .iconos:hover{
+        color: white;
+    }
+    footer{
+        background-color: #6a4fe2;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        color: white;
+        
+    }
+    .logofooter{
+        width: 12rem;
+        height: 12rem;
+    }
+    .redes{
+        margin-bottom: 15rem;
+    }
+    hr{
+        border: none; 
+        height: 5px;          
+        background-color: orange; 
+        border-radius: 3px; 
+    }
+    .dibuoriginales{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .dibus{
+        width: 25%;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="media/banner2.jpg" alt="banner" class="banner">
+        <hr>
+        <section>
+                    <h1>Davinia Godoy Portfolio</h1>
+                <nav>
+                    <a href="01-index.html" class="otraspaginas">Indice</a>
+                    <a href="03-DiseñoWeb.html" class="otraspaginas">Diseño Web</a>
+                </nav>
+        </section>
+    </header>
+        <hr style="margin-top: 1rem;">
+    <main>
+        <h2 style="margin-top: 2rem;">Originales</h2>
+        <div class="dibuoriginales">
+                        <img src="media/ilustracion/3.ElprimodeHades.jpg" alt="procesos" class="dibus">
+                        <img src="media/ilustracion/2.pagina1.jpg" alt="diseño personaje" class="dibus">
+                        <img src="media/ilustracion/4.pagina2.jpg" alt="diseño personaje" class="dibus">
+                        <img src="media/ilustracion/5.pagina3.jpg" alt="diseño personaje" class="dibus">
+            
+        </div>
+
+        <h2 style="margin-top: 2rem;">Fan arts</h2>
+<div class="dibuoriginales">
+        <img src="media/ilustracion/IMG_5215.jpeg" alt="One Piece" class="dibus">
+        <img src="media/ilustracion/IMG_5216.jpeg" alt="miercoles" class="dibus">
+        <img src="media/ilustracion/IMG_5217.jpeg" alt="Groudon" class="dibus">
+        <img src="media/ilustracion/trunksi.png" alt="trunks" class="dibus">
+        <img src="media/ilustracion/redesluffy.jpg" alt="luffy barroco" class="dibus">
+</div>
+
+    </main>
+<hr>
+    <footer>
+        <img src="media/logoDavi2.png" alt="logo" class="logofooter">
+        <div class="contacto" style="margin-top: 4rem;">
+            <h4>Contacto</h4>
+            <ul type="none">
+                <li><i class="fa-solid fa-phone iconos"></i> 656 85 21 79</li>
+                <li><i class="fa-solid fa-envelope iconos"></i> daviniagodoyweb@gmail.com</li>
+                <li><i class="fa-solid fa-location-dot iconos"></i>Cami dels Capellanets 49, 2º</li>
+            </ul>
+        </div>
+
+        <div class="redes" style="margin-top: 4rem;">
+            <h4>Redes sociales</h4>
+            <a href="https://www.instagram.com/davinia_gdy" target="_blank">
+            <i class="fa-brands fa-instagram iconos"></i>
+            </a>
+            <a href="https://www.tiktok.com/@daviniagodoyart?is_from_webapp=1&sender_device=pc" target="_blank">
+                <i class="fa-brands fa-tiktok iconos"></i>
+            </a>
+            <a href="https://www.youtube.com/@daviniagodoyart" target="_blank">
+                <i class="fa-brands fa-youtube iconos"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/davinia-godoy-luque-158abb14b" target="_blank">
+                <i class="fa-brands fa-linkedin iconos"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
